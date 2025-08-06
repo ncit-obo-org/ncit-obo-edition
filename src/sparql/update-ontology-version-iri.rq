@@ -1,0 +1,9 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+INSERT {
+  <http://purl.obolibrary.org/obo/ncit.owl> owl:versionIRI ?versionIRI .
+}
+WHERE {
+  BIND (REPLACE(STR(NOW()), "T.*", "") AS ?newVersion)
+  BIND (IRI(CONCAT("http://purl.obolibrary.org/obo/ncit/releases/", ?newVersion, "/ncit.owl")) AS ?versionIRI)
+}
