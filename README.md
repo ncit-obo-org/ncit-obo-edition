@@ -31,6 +31,10 @@ git config --global --add safe.directory /work #This may be necessary if you do 
 make deploy_release GHVERSION=v2023-10-19 #(the usual)
 ```
 
+## OBO Compliance
+
+The contents of this ontology have been modified to comply with [OBO guidelines](https://obofoundry.org/docs/COC.html).
+
 ## Contact
 
 Please use the [issue tracker](https://github.com/ncit-obo-org/ncit-obo-edition/issues) for providing feedback.
