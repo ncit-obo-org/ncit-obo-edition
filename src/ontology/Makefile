@@ -25,7 +25,7 @@ docker-build:
 
 .PHONY: all
 # ncit-plus.owl ncit-plus-negations.owl were dropped from here, see comments below
-all: ncit.owl ncit.obo ncit-bridge-to-cl.owl ncit-bridge-to-uberon.owl ncit-negations.owl ncit-oncotree.ttl ncit-oncotree.obo
+all: ncit.owl ncit.obo ncit-bridge-to-cl.owl ncit-bridge-to-uberon.owl ncit-negations.owl ncit-oncotree.ttl ncit-oncotree.obo ncit-obo-slim.owl
 
 Thesaurus.owl:
  	curl -L -O https://evs.nci.nih.gov/ftp1/rdf/Thesaurus.owl
@@ -98,6 +98,22 @@ ncit.owl: ncit-edit.owl tmp/revert-obsolete.txt tmp/revert-obsolete.owl
 ncit.obo: ncit.owl
 	robot convert --input $< --check false -f obo $(OBO_FORMAT_OPTIONS) -o tmp/$@
 	grep -v ^owl-axioms tmp/$@ >$@
+
+ANNOTATION_PROPERTIES=rdfs:label IAO:0000115 NCIT:P378
+
+ncit-obo-slim.owl: #ncit.owl obo-slim-seed.txt
+	robot merge --input ncit.owl \
+		annotate --remove-annotations \
+		remove --base-iri "http://purl.obolibrary.org/obo/NCIT_" \
+			--axioms external \
+			--preserve-structure false --trim false \
+		remove $(foreach p, $(ANNOTATION_PROPERTIES), --term $(p)) \
+			--term-file obo-slim-seed.txt \
+			--select complement \
+		repair --merge-axiom-annotations true \
+		annotate --ontology-iri $(PREFIX)/$@ --version-iri $(RELEASEPREFIX)/$@ \
+		convert -f ofn --output $@.tmp.owl && mv $@.tmp.owl $@
+.PRECIOUS: ncit-obo-slim.owl
 
 ncit-bridge-to-cl.owl: ../mappings/cl.tsv
 	grep -Ev '^#' $< >../mappings/cl-filtered.tsv &&\
@@ -195,7 +211,8 @@ ncit-negations.owl \
 ncit-oncotree.obo \
 ncit-oncotree.ttl \
 ncit.obo \
-ncit.owl
+ncit.owl \
+ncit-obo-slim.owl
 
 
 deploy_release:
