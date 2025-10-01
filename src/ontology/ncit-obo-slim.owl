@@ -1,0 +1,56 @@
+Prefix(:=<http://purl.obolibrary.org/obo/ncit/ncit-obo-slim.owl#>)
+Prefix(dc:=<http://purl.org/dc/elements/1.1/>)
+Prefix(obo:=<http://purl.obolibrary.org/obo/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(ncit:=<http://purl.obolibrary.org/obo/ncit#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(terms:=<http://purl.org/dc/terms/>)
+Prefix(protege:=<http://protege.stanford.edu/plugins/owl/protege#>)
+Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/ncit/ncit-obo-slim.owl>
+<http://purl.obolibrary.org/obo/ncit/releases/2025-10-01/ncit-obo-slim.owl>
+
+Declaration(Class(obo:NCIT_C14289))
+Declaration(Class(obo:NCIT_C43431))
+Declaration(Class(obo:NCIT_C63663))
+Declaration(AnnotationProperty(obo:IAO_0000115))
+Declaration(AnnotationProperty(obo:NCIT_P378))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: obo:NCIT_P378 (Definition Source)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_P378 "A property representing the organization that is the supplier or owner of each DEFINITION or ALT_DEFINITION associated with a concept.")
+AnnotationAssertion(rdfs:label obo:NCIT_P378 "Definition Source")
+
+
+
+############################
+#   Classes
+############################
+
+# Class: obo:NCIT_C14289 (Helicobacter pylori)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C14289 "Bacteria that cause stomach inflammation (gastritis) and ulcers in the stomach. This bacteria is the most common cause of ulcers worldwide. It is often referred to as H. pylori. H. pylori infection is usually acquired from contaminated food and water and through person to person spread. The infection is common in crowded living conditions with poor sanitation. In countries with poor sanitation, 90% of the adult population can be infected. In the U.S., 30% of the adult population is infected. One out of six patients with H. pylori infection develops ulcers of the duodenum or the stomach. This bacteria is also believed to be associated with stomach cancer and a rare type of lymph gland tumor called gastric MALT lymphoma. Infected persons usually carry the infection indefinitely, unless treated with medications to eradicate the bacteria. (MedicineNet.com)")
+AnnotationAssertion(rdfs:label obo:NCIT_C14289 "Helicobacter pylori")
+
+# Class: obo:NCIT_C43431 (Activity)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C43431 "An active process; excludes processes and mechanisms which fulfill biological functions.")
+AnnotationAssertion(rdfs:label obo:NCIT_C43431 "Activity")
+
+# Class: obo:NCIT_C63663 (Fasting)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C63663 "Abstaining from food.")
+AnnotationAssertion(rdfs:label obo:NCIT_C63663 "Fasting")
+SubClassOf(obo:NCIT_C63663 obo:NCIT_C43431)
+
+
+AnnotationAssertion(rdfs:label obo:NCIT_C210483 "Me-Wuk")
+)

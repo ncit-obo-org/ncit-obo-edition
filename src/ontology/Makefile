@@ -101,7 +101,7 @@ ncit.obo: ncit.owl
 
 ANNOTATION_PROPERTIES=rdfs:label IAO:0000115 NCIT:P378
 
-ncit-obo-slim.owl: #ncit.owl obo-slim-seed.txt
+ncit-obo-slim.owl: ncit.owl obo-slim-seed.txt
 	robot merge --input ncit.owl \
 		annotate --remove-annotations \
 		remove --base-iri "http://purl.obolibrary.org/obo/NCIT_" \
