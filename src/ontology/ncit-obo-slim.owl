@@ -13,11 +13,12 @@ Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/ncit/ncit-obo-slim.owl>
-<http://purl.obolibrary.org/obo/ncit/releases/2025-10-01/ncit-obo-slim.owl>
+<http://purl.obolibrary.org/obo/ncit/releases/2025-10-22/ncit-obo-slim.owl>
 
 Declaration(Class(obo:NCIT_C14289))
 Declaration(Class(obo:NCIT_C43431))
 Declaration(Class(obo:NCIT_C63663))
+Declaration(Class(obo:NCIT_C93039))
 Declaration(AnnotationProperty(obo:IAO_0000115))
 Declaration(AnnotationProperty(obo:NCIT_P378))
 ############################
@@ -50,6 +51,11 @@ AnnotationAssertion(rdfs:label obo:NCIT_C43431 "Activity")
 AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C63663 "Abstaining from food.")
 AnnotationAssertion(rdfs:label obo:NCIT_C63663 "Fasting")
 SubClassOf(obo:NCIT_C63663 obo:NCIT_C43431)
+
+# Class: obo:NCIT_C93039 (Galvanic Skin Response)
+
+AnnotationAssertion(rdfs:label obo:NCIT_C93039 "Galvanic Skin Response")
+SubClassOf(obo:NCIT_C93039 obo:NCIT_C43431)
 
 
 AnnotationAssertion(rdfs:label obo:NCIT_C210483 "Me-Wuk")
