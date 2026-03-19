@@ -1,4 +1,4 @@
-FROM obolibrary/odkfull:v1.6
+FROM obolibrary/odkfull:v1.6.1
 
 LABEL maintainer="ncit-obo@proton.me" 
 
