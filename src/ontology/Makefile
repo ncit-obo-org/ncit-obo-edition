@@ -28,7 +28,7 @@ docker-build:
 all: ncit.owl ncit.obo ncit-bridge-to-cl.owl ncit-bridge-to-uberon.owl ncit-negations.owl ncit-oncotree.ttl ncit-oncotree.obo ncit-obo-slim.owl
 
 Thesaurus.owl:
- 	curl -L -O https://evs.nci.nih.gov/ftp1/rdf/Thesaurus.owl
+	curl -L -O https://evs.nci.nih.gov/ftp1/rdf/Thesaurus.owl
 
 ncit-edit.owl: Thesaurus.owl oncotree.nt additions.ttl
 	export JAVA_OPTS=-Xmx32G && export ROBOT_JAVA_ARGS=-Xmx32G &&\
