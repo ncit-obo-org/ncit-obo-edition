@@ -13,7 +13,7 @@ Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/ncit/ncit-obo-slim.owl>
-<http://purl.obolibrary.org/obo/ncit/releases/2025-10-22/ncit-obo-slim.owl>
+<http://purl.obolibrary.org/obo/ncit/releases/2026-03-19/ncit-obo-slim.owl>
 
 Declaration(Class(obo:NCIT_C14289))
 Declaration(Class(obo:NCIT_C43431))
