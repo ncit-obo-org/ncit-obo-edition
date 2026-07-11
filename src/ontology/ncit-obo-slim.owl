@@ -13,12 +13,66 @@ Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/ncit/ncit-obo-slim.owl>
-<http://purl.obolibrary.org/obo/ncit/releases/2026-03-19/ncit-obo-slim.owl>
+<http://purl.obolibrary.org/obo/ncit/releases/2026-07-11/ncit-obo-slim.owl>
 
+Declaration(Class(obo:NCIT_C103933))
+Declaration(Class(obo:NCIT_C116448))
 Declaration(Class(obo:NCIT_C14289))
+Declaration(Class(obo:NCIT_C154219))
+Declaration(Class(obo:NCIT_C154329))
+Declaration(Class(obo:NCIT_C16203))
+Declaration(Class(obo:NCIT_C16273))
+Declaration(Class(obo:NCIT_C16502))
+Declaration(Class(obo:NCIT_C16522))
+Declaration(Class(obo:NCIT_C16567))
+Declaration(Class(obo:NCIT_C16795))
+Declaration(Class(obo:NCIT_C16818))
+Declaration(Class(obo:NCIT_C17007))
+Declaration(Class(obo:NCIT_C17009))
+Declaration(Class(obo:NCIT_C17054))
+Declaration(Class(obo:NCIT_C17127))
+Declaration(Class(obo:NCIT_C17263))
+Declaration(Class(obo:NCIT_C17427))
+Declaration(Class(obo:NCIT_C17468))
+Declaration(Class(obo:NCIT_C17604))
+Declaration(Class(obo:NCIT_C17708))
+Declaration(Class(obo:NCIT_C178214))
+Declaration(Class(obo:NCIT_C17934))
+Declaration(Class(obo:NCIT_C18059))
+Declaration(Class(obo:NCIT_C18270))
+Declaration(Class(obo:NCIT_C18272))
+Declaration(Class(obo:NCIT_C185297))
+Declaration(Class(obo:NCIT_C19035))
+Declaration(Class(obo:NCIT_C19382))
+Declaration(Class(obo:NCIT_C19683))
+Declaration(Class(obo:NCIT_C19694))
+Declaration(Class(obo:NCIT_C19706))
+Declaration(Class(obo:NCIT_C20026))
+Declaration(Class(obo:NCIT_C20080))
+Declaration(Class(obo:NCIT_C20175))
+Declaration(Class(obo:NCIT_C20188))
+Declaration(Class(obo:NCIT_C20701))
+Declaration(Class(obo:NCIT_C21057))
+Declaration(Class(obo:NCIT_C25193))
+Declaration(Class(obo:NCIT_C27851))
+Declaration(Class(obo:NCIT_C38040))
+Declaration(Class(obo:NCIT_C38049))
+Declaration(Class(obo:NCIT_C38096))
+Declaration(Class(obo:NCIT_C38101))
+Declaration(Class(obo:NCIT_C38102))
+Declaration(Class(obo:NCIT_C38103))
+Declaration(Class(obo:NCIT_C39772))
+Declaration(Class(obo:NCIT_C39773))
 Declaration(Class(obo:NCIT_C43431))
+Declaration(Class(obo:NCIT_C53462))
+Declaration(Class(obo:NCIT_C61508))
 Declaration(Class(obo:NCIT_C63663))
+Declaration(Class(obo:NCIT_C73554))
+Declaration(Class(obo:NCIT_C75563))
+Declaration(Class(obo:NCIT_C86589))
 Declaration(Class(obo:NCIT_C93039))
+Declaration(Class(obo:NCIT_C93214))
+Declaration(Class(obo:NCIT_C96640))
 Declaration(AnnotationProperty(obo:IAO_0000115))
 Declaration(AnnotationProperty(obo:NCIT_P378))
 ############################
@@ -36,26 +90,347 @@ AnnotationAssertion(rdfs:label obo:NCIT_P378 "Definition Source")
 #   Classes
 ############################
 
+# Class: obo:NCIT_C103933 (Automotive Occupations)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C103933 "A class of professional or vocational positions of employment that involve work with automobiles.")
+AnnotationAssertion(rdfs:label obo:NCIT_C103933 "Automotive Occupations")
+SubClassOf(obo:NCIT_C103933 obo:NCIT_C25193)
+
+# Class: obo:NCIT_C116448 (Ultrasound Tomography)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C116448 "The quantitative computation of data obtained via ultrasonography to create a three dimensional map of the imaged tissue.")
+AnnotationAssertion(rdfs:label obo:NCIT_C116448 "Ultrasound Tomography")
+SubClassOf(obo:NCIT_C116448 obo:NCIT_C16203)
+SubClassOf(obo:NCIT_C116448 obo:NCIT_C16502)
+
 # Class: obo:NCIT_C14289 (Helicobacter pylori)
 
 AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C14289 "Bacteria that cause stomach inflammation (gastritis) and ulcers in the stomach. This bacteria is the most common cause of ulcers worldwide. It is often referred to as H. pylori. H. pylori infection is usually acquired from contaminated food and water and through person to person spread. The infection is common in crowded living conditions with poor sanitation. In countries with poor sanitation, 90% of the adult population can be infected. In the U.S., 30% of the adult population is infected. One out of six patients with H. pylori infection develops ulcers of the duodenum or the stomach. This bacteria is also believed to be associated with stomach cancer and a rare type of lymph gland tumor called gastric MALT lymphoma. Infected persons usually carry the infection indefinitely, unless treated with medications to eradicate the bacteria. (MedicineNet.com)")
 AnnotationAssertion(rdfs:label obo:NCIT_C14289 "Helicobacter pylori")
+
+# Class: obo:NCIT_C154219 (Resistance Training)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C154219 "Physical exercise that uses weight, or other forms of resistance, to induce muscle contraction and build strength, anaerobic endurance, and size of skeletal muscles. Typical exercises include leg and chest press, knee extension, leg curl, row, abdominal crunch, and bicep curl.")
+AnnotationAssertion(rdfs:label obo:NCIT_C154219 "Resistance Training")
+SubClassOf(obo:NCIT_C154219 obo:NCIT_C17708)
+
+# Class: obo:NCIT_C154329 (Smoking)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C154329 "The act of puffing and/or inhaling the combustion products of a substance so as to be tasted and absorbed into the bloodstream.")
+AnnotationAssertion(rdfs:label obo:NCIT_C154329 "Smoking")
+SubClassOf(obo:NCIT_C154329 obo:NCIT_C19683)
+
+# Class: obo:NCIT_C16203 (Clinical or Research Activity)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C16203 "Any specific activity undertaken during the course of a clinical study or research protocol.")
+AnnotationAssertion(rdfs:label obo:NCIT_C16203 "Clinical or Research Activity")
+SubClassOf(obo:NCIT_C16203 obo:NCIT_C43431)
+
+# Class: obo:NCIT_C16273 (Alcohol Consumption)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C16273 "Consumption of liquids containing ethanol, including the behaviors associated with drinking the alcohol.")
+AnnotationAssertion(rdfs:label obo:NCIT_C16273 "Alcohol Consumption")
+SubClassOf(obo:NCIT_C16273 obo:NCIT_C19683)
+
+# Class: obo:NCIT_C16502 (Diagnostic Imaging Testing)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C16502 "Any method that uses a visual display of structural or functional patterns of organs or tissues for diagnostic evaluation.")
+AnnotationAssertion(rdfs:label obo:NCIT_C16502 "Diagnostic Imaging Testing")
+SubClassOf(obo:NCIT_C16502 obo:NCIT_C16203)
+
+# Class: obo:NCIT_C16522 (Drug Abuse)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C16522 "The use of a drug for a reason other than which it was intended or in a manner or in quantities other than directed.")
+AnnotationAssertion(rdfs:label obo:NCIT_C16522 "Drug Abuse")
+SubClassOf(obo:NCIT_C16522 obo:NCIT_C18272)
+
+# Class: obo:NCIT_C16567 (Exercise)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C16567 "Activity that requires physical or mental exertion, especially when performed to develop or maintain fitness.")
+AnnotationAssertion(rdfs:label obo:NCIT_C16567 "Exercise")
+SubClassOf(obo:NCIT_C16567 obo:NCIT_C17708)
+
+# Class: obo:NCIT_C16795 (Lifestyle)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C16795 "A manner of living that reflects the person's values and attitudes.")
+AnnotationAssertion(rdfs:label obo:NCIT_C16795 "Lifestyle")
+SubClassOf(obo:NCIT_C16795 obo:NCIT_C43431)
+
+# Class: obo:NCIT_C16818 (Mammography)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C16818 "A type of radiography used specifically to examine breast tissue. The procedure utilizes a low-dose of x-rays or radiation to generate an image. A mammography exam or mammogram, is used as a screening tool to detect early breast cancer in women experiencing no symptoms and to detect and diagnose breast disease.")
+AnnotationAssertion(rdfs:label obo:NCIT_C16818 "Mammography")
+SubClassOf(obo:NCIT_C16818 obo:NCIT_C16502)
+
+# Class: obo:NCIT_C17007 (Positron Emission Tomography)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C17007 "A technique for measuring the gamma radiation produced by collisions of electrons and positrons (anti-electrons) within living tissue. In positron emission tomography (PET), a subject is given a dose of a positron-emitting radionuclide attached to a metabolically active substance (for example, 2-fluoro-2-deoxy-D-glucose (FDG), which is similar to a naturally occurring sugar, glucose, with the addition of a radioactive fluorine atom). When living tissue containing the positron emitter is bombarded by electrons, gamma radiation produced by collisions of electrons and positrons is detected by a scanner, revealing in fine detail the tissue location of the metabolically-active substance administered.")
+AnnotationAssertion(rdfs:label obo:NCIT_C17007 "Positron Emission Tomography")
+SubClassOf(obo:NCIT_C17007 obo:NCIT_C16203)
+
+# Class: obo:NCIT_C17009 (Poverty)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C17009 "A subjective and comparative term describing a lack of sufficient wealth (usually understood as capital, money, material goods, or resources especially natural resources) to live what is understood in a society as a \"normal\" life: for instance, to be capable of raising a healthy family, and especially educating children and participating in society. A person living in this condition of poverty is said to be poor. The meaning of \"sufficient\" varies widely across the different political and economic areas of the world.")
+AnnotationAssertion(rdfs:label obo:NCIT_C17009 "Poverty")
+SubClassOf(obo:NCIT_C17009 obo:NCIT_C17468)
+
+# Class: obo:NCIT_C17054 (Radioactivity)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C17054 "The quality of emitting or the emission of corpuscular or electromagnetic radiations consequent to nuclear disintegration, a natural property of all chemical elements of atomic number above 83 and possible of induction in all other known elements.")
+AnnotationAssertion(rdfs:label obo:NCIT_C17054 "Radioactivity")
+
+# Class: obo:NCIT_C17127 (Sex Behavior)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C17127 "Behaviors involved with sexual arousal and/or intercourse.")
+AnnotationAssertion(rdfs:label obo:NCIT_C17127 "Sex Behavior")
+SubClassOf(obo:NCIT_C17127 obo:NCIT_C19683)
+
+# Class: obo:NCIT_C17263 (Xeroradiography)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C17263 "A printing process of electrostatic electrophotography that uses a photoconductive insulating medium in conjunction with X-rays or gamma rays to produce latent electrostatic-charge patterns for achieving an observable pattern.")
+AnnotationAssertion(rdfs:label obo:NCIT_C17263 "Xeroradiography")
+SubClassOf(obo:NCIT_C17263 obo:NCIT_C38101)
+
+# Class: obo:NCIT_C17427 (Smoking Cessation)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C17427 "Discontinuation of the habit of smoking.")
+AnnotationAssertion(rdfs:label obo:NCIT_C17427 "Smoking Cessation")
+SubClassOf(obo:NCIT_C17427 obo:NCIT_C19683)
+SubClassOf(obo:NCIT_C17427 obo:NCIT_C43431)
+
+# Class: obo:NCIT_C17468 (Socioeconomic Factors)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C17468 "Characteristics of a person such as education and occupation, used to describe the person's position in stratification systems, access to services, etc.")
+AnnotationAssertion(rdfs:label obo:NCIT_C17468 "Socioeconomic Factors")
+SubClassOf(obo:NCIT_C17468 obo:NCIT_C20188)
+
+# Class: obo:NCIT_C17604 (Food Preparation)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C17604 "The process of taking raw food and producing a finished meal.  Investigations into the link between food preparation methods and human disease")
+AnnotationAssertion(rdfs:label obo:NCIT_C17604 "Food Preparation")
+
+# Class: obo:NCIT_C17708 (Physical Activity)
+
+AnnotationAssertion(rdfs:label obo:NCIT_C17708 "Physical Activity")
+SubClassOf(obo:NCIT_C17708 obo:NCIT_C43431)
+
+# Class: obo:NCIT_C178214 (Weight Bearing)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C178214 "The act of supporting or resisting the weight of something.")
+AnnotationAssertion(rdfs:label obo:NCIT_C178214 "Weight Bearing")
+SubClassOf(obo:NCIT_C178214 obo:NCIT_C43431)
+
+# Class: obo:NCIT_C17934 (Tobacco Smoking)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C17934 "The act of puffing and/or inhaling smoke from a lit cigarette, cigar, or pipe.")
+AnnotationAssertion(rdfs:label obo:NCIT_C17934 "Tobacco Smoking")
+SubClassOf(obo:NCIT_C17934 obo:NCIT_C154329)
+SubClassOf(obo:NCIT_C17934 obo:NCIT_C18059)
+SubClassOf(obo:NCIT_C17934 obo:NCIT_C19683)
+
+# Class: obo:NCIT_C18059 (Tobacco Use)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C18059 "Use of tobacco in any form, e.g., smoking, chewing or sniffing.")
+AnnotationAssertion(rdfs:label obo:NCIT_C18059 "Tobacco Use")
+SubClassOf(obo:NCIT_C18059 obo:NCIT_C19683)
+
+# Class: obo:NCIT_C18270 (Cigarette Smoking)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C18270 "Inhaling smoke from tobacco in the form of a cigarette.")
+AnnotationAssertion(rdfs:label obo:NCIT_C18270 "Cigarette Smoking")
+SubClassOf(obo:NCIT_C18270 obo:NCIT_C17934)
+
+# Class: obo:NCIT_C18272 (Substance Abuse)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C18272 "Maladaptive pattern of drug or alcohol use that may lead to social, occupational, psychological, or physical problems.")
+AnnotationAssertion(rdfs:label obo:NCIT_C18272 "Substance Abuse")
+SubClassOf(obo:NCIT_C18272 obo:NCIT_C19683)
+
+# Class: obo:NCIT_C185297 (High-Intensity Interval Training)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C185297 "A type of cardiovascular exercise that alternates short periods of intense anaerobic exercise with less intense recovery periods.")
+AnnotationAssertion(rdfs:label obo:NCIT_C185297 "High-Intensity Interval Training")
+SubClassOf(obo:NCIT_C185297 obo:NCIT_C39773)
+
+# Class: obo:NCIT_C19035 (Social Networking)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C19035 "Establishing relationships with individuals who have similar social or professional interests for the purposes of expanding knowledge and professional/social interaction. (Glanz et al: Heath Behavior & Health Education, 1990)")
+AnnotationAssertion(rdfs:label obo:NCIT_C19035 "Social Networking")
+SubClassOf(obo:NCIT_C19035 obo:NCIT_C19683)
+
+# Class: obo:NCIT_C19382 (Coping Skills)
+
+AnnotationAssertion(rdfs:label obo:NCIT_C19382 "Coping Skills")
+SubClassOf(obo:NCIT_C19382 obo:NCIT_C43431)
+
+# Class: obo:NCIT_C19683 (Personal Behavior)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C19683 "The observable response of a person.")
+AnnotationAssertion(rdfs:label obo:NCIT_C19683 "Personal Behavior")
+SubClassOf(obo:NCIT_C19683 obo:NCIT_C43431)
+
+# Class: obo:NCIT_C19694 (Risk Reduction)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C19694 "Personal behaviors designed to minimize and control the probability and/or impact of unfortunate events.")
+AnnotationAssertion(rdfs:label obo:NCIT_C19694 "Risk Reduction")
+SubClassOf(obo:NCIT_C19694 obo:NCIT_C19683)
+
+# Class: obo:NCIT_C19706 (Dietary Practices)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C19706 "Dietary Practices refers to a person's choices in food consumption.")
+AnnotationAssertion(rdfs:label obo:NCIT_C19706 "Dietary Practices")
+SubClassOf(obo:NCIT_C19706 obo:NCIT_C19683)
+
+# Class: obo:NCIT_C20026 (Flame-Broiling)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C20026 "Cooking of meats over an open flame.  A cooking practice associated with increased risk of breast cancer.")
+AnnotationAssertion(rdfs:label obo:NCIT_C20026 "Flame-Broiling")
+SubClassOf(obo:NCIT_C20026 obo:NCIT_C19683)
+
+# Class: obo:NCIT_C20080 (X-ray Angiography)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C20080 "Any nuclear medicine study that utilizes a radioactive tracer to image blood vessels or characterize blood flow.")
+AnnotationAssertion(rdfs:label obo:NCIT_C20080 "X-ray Angiography")
+SubClassOf(obo:NCIT_C20080 obo:NCIT_C16502)
+SubClassOf(obo:NCIT_C20080 obo:NCIT_C38101)
+
+# Class: obo:NCIT_C20175 (Myelography)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C20175 "The radiographic examination of the spinal cord and nerve roots following the injection of a contrast medium into the spinal subarachnoid space. The X-rays taken may highlight conditions such as spinal tumors, spinal cord swelling and herniated discs.")
+AnnotationAssertion(rdfs:label obo:NCIT_C20175 "Myelography")
+SubClassOf(obo:NCIT_C20175 obo:NCIT_C38101)
+
+# Class: obo:NCIT_C20188 (Social Circumstances)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C20188 "Pertaining to the demographic and psychosocial environment in which a person lives.")
+AnnotationAssertion(rdfs:label obo:NCIT_C20188 "Social Circumstances")
+
+# Class: obo:NCIT_C20701 (Alcohol Abuse)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C20701 "The use of alcoholic beverages to excess, either on individual occasions (\"binge drinking\") or as a regular practice.")
+AnnotationAssertion(rdfs:label obo:NCIT_C20701 "Alcohol Abuse")
+SubClassOf(obo:NCIT_C20701 obo:NCIT_C18272)
+
+# Class: obo:NCIT_C21057 (Isometric Exercise)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C21057 "An exercise that is performed by exerting force against an immovable object or by holding an object in a static position.")
+AnnotationAssertion(rdfs:label obo:NCIT_C21057 "Isometric Exercise")
+SubClassOf(obo:NCIT_C21057 obo:NCIT_C16567)
+
+# Class: obo:NCIT_C25193 (Occupation)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C25193 "The principal activity that a person does to earn money.")
+AnnotationAssertion(rdfs:label obo:NCIT_C25193 "Occupation")
+
+# Class: obo:NCIT_C27851 (Human Papillomavirus Infection)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C27851 "An infectious process caused by a human papillomavirus. This infection can cause abnormal tissue growth.")
+AnnotationAssertion(rdfs:label obo:NCIT_C27851 "Human Papillomavirus Infection")
+
+# Class: obo:NCIT_C38040 (Bronchography)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C38040 "The radiographic examination of the tracheobronchial tree following the injection of a radiopaque material.")
+AnnotationAssertion(rdfs:label obo:NCIT_C38040 "Bronchography")
+SubClassOf(obo:NCIT_C38040 obo:NCIT_C38101)
+
+# Class: obo:NCIT_C38049 (Cystography)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C38049 "A radiographic procedure to obtain an image of the urinary bladder by filling the bladder with contrast medium.")
+AnnotationAssertion(rdfs:label obo:NCIT_C38049 "Cystography")
+SubClassOf(obo:NCIT_C38049 obo:NCIT_C38101)
+
+# Class: obo:NCIT_C38096 (Vaginography)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C38096 "A radiographic examination of the vagina using the intravaginal injection of contrast medium.")
+AnnotationAssertion(rdfs:label obo:NCIT_C38096 "Vaginography")
+SubClassOf(obo:NCIT_C38096 obo:NCIT_C38101)
+
+# Class: obo:NCIT_C38101 (X-Ray Imaging)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C38101 "A radiographic procedure using the emission of x-rays to form an image of the structure penetrated by the radiation.")
+AnnotationAssertion(rdfs:label obo:NCIT_C38101 "X-Ray Imaging")
+SubClassOf(obo:NCIT_C38101 obo:NCIT_C16502)
+
+# Class: obo:NCIT_C38102 (Abdominal Radiography)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C38102 "A radiographic procedure to form an image of the abdomen.")
+AnnotationAssertion(rdfs:label obo:NCIT_C38102 "Abdominal Radiography")
+SubClassOf(obo:NCIT_C38102 obo:NCIT_C38101)
+
+# Class: obo:NCIT_C38103 (Chest Radiography)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C38103 "An x-ray examination of the chest.")
+AnnotationAssertion(rdfs:label obo:NCIT_C38103 "Chest Radiography")
+SubClassOf(obo:NCIT_C38103 obo:NCIT_C38101)
+
+# Class: obo:NCIT_C39772 (Moderate Exercise)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C39772 "20-60 minutes of exercise which elevates your heart rate to 60-80% of your maximum heart rate performed at least 3-4 times per week.")
+AnnotationAssertion(rdfs:label obo:NCIT_C39772 "Moderate Exercise")
+SubClassOf(obo:NCIT_C39772 obo:NCIT_C16567)
+
+# Class: obo:NCIT_C39773 (Strenuous Exercise)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C39773 "20-60 minutes of exercise which elevates your heart rate to 80-90% of your maximum heart rate performed at least 3-4 times per week.")
+AnnotationAssertion(rdfs:label obo:NCIT_C39773 "Strenuous Exercise")
+SubClassOf(obo:NCIT_C39773 obo:NCIT_C16567)
 
 # Class: obo:NCIT_C43431 (Activity)
 
 AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C43431 "An active process; excludes processes and mechanisms which fulfill biological functions.")
 AnnotationAssertion(rdfs:label obo:NCIT_C43431 "Activity")
 
+# Class: obo:NCIT_C53462 (Travel)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C53462 "The act of going from one place to another.")
+AnnotationAssertion(rdfs:label obo:NCIT_C53462 "Travel")
+SubClassOf(obo:NCIT_C53462 obo:NCIT_C43431)
+
+# Class: obo:NCIT_C61508 (Cholangiography)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C61508 "The radiographic examination of the bile ducts after a contrast medium has been injected.")
+AnnotationAssertion(rdfs:label obo:NCIT_C61508 "Cholangiography")
+SubClassOf(obo:NCIT_C61508 obo:NCIT_C38101)
+
 # Class: obo:NCIT_C63663 (Fasting)
 
 AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C63663 "Abstaining from food.")
 AnnotationAssertion(rdfs:label obo:NCIT_C63663 "Fasting")
-SubClassOf(obo:NCIT_C63663 obo:NCIT_C43431)
+SubClassOf(obo:NCIT_C63663 obo:NCIT_C19706)
+
+# Class: obo:NCIT_C73554 (Walking)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C73554 "The act of traveling by foot.")
+AnnotationAssertion(rdfs:label obo:NCIT_C73554 "Walking")
+SubClassOf(obo:NCIT_C73554 obo:NCIT_C17708)
+
+# Class: obo:NCIT_C75563 (Unemployed)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C75563 "The state of not having a job.")
+AnnotationAssertion(rdfs:label obo:NCIT_C75563 "Unemployed")
+
+# Class: obo:NCIT_C86589 (Sedentary Lifestyle)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C86589 "A type of lifestyle that lacks physical exercise, characterized by sitting, reading, watching television or using a computer for much of the day without vigorous physical exertion.")
+AnnotationAssertion(rdfs:label obo:NCIT_C86589 "Sedentary Lifestyle")
+SubClassOf(obo:NCIT_C86589 obo:NCIT_C16795)
 
 # Class: obo:NCIT_C93039 (Galvanic Skin Response)
 
 AnnotationAssertion(rdfs:label obo:NCIT_C93039 "Galvanic Skin Response")
 SubClassOf(obo:NCIT_C93039 obo:NCIT_C43431)
+
+# Class: obo:NCIT_C93214 (Violence)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C93214 "An act of aggression between individuals.")
+AnnotationAssertion(rdfs:label obo:NCIT_C93214 "Violence")
+SubClassOf(obo:NCIT_C93214 obo:NCIT_C43431)
+
+# Class: obo:NCIT_C96640 (Total Body Radiography)
+
+AnnotationAssertion(Annotation(obo:NCIT_P378 "NCI") obo:IAO_0000115 obo:NCIT_C96640 "A diagnostic radiologic test that involves the examination of the entire body in a single procedure.")
+AnnotationAssertion(rdfs:label obo:NCIT_C96640 "Total Body Radiography")
+SubClassOf(obo:NCIT_C96640 obo:NCIT_C38101)
 
 
 AnnotationAssertion(rdfs:label obo:NCIT_C210483 "Me-Wuk")
